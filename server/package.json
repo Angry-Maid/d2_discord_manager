@@ -1,28 +1,28 @@
 {
-  "name": "d2_discord_manager_bot",
+  "name": "channel_spawner_bot",
   "version": "0.1.0",
-  "description": "A Discord bot for administrating Destiny 2 related servers.",
-  "main": "index.js",
+  "description": "A Discord bot for spawning channels on user join from selected channel categories. And other admin stuff.",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "keywords": [
     "discord",
-    "bot",
-    "destiny"
+    "bot"
   ],
   "author": "Angry Maid",
   "license": "gpl-3.0",
   "dependencies": {
     "cors": "^2.8.5",
     "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "helmet": "^4.1.0",
     "moment": "^2.27.0",
     "monk": "^7.3.1",
     "morgan": "^1.10.0",
-    "dotenv": "^8.2.0"
+    "yup": "^0.29.3"
   },
   "devDependencies": {
     "eslint": "^7.7.0",

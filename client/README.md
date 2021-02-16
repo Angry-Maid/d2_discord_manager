@@ -1,6 +1,6 @@
-# Quasar App (bot-admin-panel)
+# Quasar App (admin-panel)
 
-Front-end client for configuring and controlling discord bot
+A admin panel for controlling and configuring Discord bot
 
 ## Install the dependencies
 ```bash
